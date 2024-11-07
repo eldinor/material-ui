@@ -1,12 +1,13 @@
 import { createTheme } from '@mui/material/styles';
-import { red } from '@mui/material/colors';
+import { red, blue } from '@mui/material/colors';
+import { Bluetooth } from '@mui/icons-material';
 
 // A custom theme for this app
 const theme = createTheme({
   cssVariables: true,
   palette: {
     primary: {
-      main: '#556cd6',
+      main: blue[900],
     },
     secondary: {
       main: '#19857b',
